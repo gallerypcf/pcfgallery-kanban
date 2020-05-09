@@ -11,6 +11,7 @@ import { AppConfig,
 
 
 export interface AppEventsActions {
+   
     showAlertDialog: (v: ConfirmDialogProps) =>
         Action<ConfirmDialogProps>;
     closeAlertDialog: () =>
